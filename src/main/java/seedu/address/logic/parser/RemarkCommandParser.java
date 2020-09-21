@@ -10,6 +10,7 @@ import seedu.address.logic.commands.RemarkCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.person.Remark;
 
+//@@author Jeffry Lum-reused
 public class RemarkCommandParser implements Parser<RemarkCommand> {
     @Override
     public RemarkCommand parse(String args) throws ParseException {
@@ -29,3 +30,4 @@ public class RemarkCommandParser implements Parser<RemarkCommand> {
         return new RemarkCommand(index, remark);
     }
 }
+// @@author
